@@ -46,3 +46,32 @@
 .navbar-collapse {
     background-color: #87cefa;
 }
+/* Body Designing */
+ul {
+    list-style: none;
+}
+.main {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+/* Flex Designing  */
+
+/* Bottom Designing */
+.bottom img {
+    height: 100px;
+    width: 100px;
+}
+#insightsocial {
+    display: flex;
+    justify-content: space-around;
+}
+.sublogo {
+    display: flex;
+    justify-content: space-around;
+}
+
