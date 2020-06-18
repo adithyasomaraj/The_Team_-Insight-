@@ -12,7 +12,8 @@
 /*navbar styling*/
 
 .logo-tint-blue {
-    background-color:rgb(191, 218, 228);
+    background-color:#87cefa;
+    height: 65px;
 }
 
 .a-nav {
@@ -26,6 +27,8 @@
 .a-nav:hover {
     color:547A87;
     text-decoration:none;
+    border-bottom: 2px solid white;
+    
 }
 
 .white-bar {
@@ -40,3 +43,6 @@
 .a-logo:hover {
     border:1px solid; color : 547A87; 
  }
+.navbar-collapse {
+    background-color: #87cefa;
+}
