@@ -37,6 +37,6 @@
     text-decoration: none;
 }
 
-.a-logo:hover{
-    border:1px solid color:547A87;
-}
+.a-logo:hover {
+    border:1px solid; color : 547A87; 
+ }
