@@ -4,10 +4,32 @@
     padding: 0;
 }
 
+/*custom fonts*/
+
 .base-font {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: black;
 }
+
+/*h1{
+    font-family: 'Barrio', cursive;
+}*/
+
+h3{
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 18px;
+}
+#pp {
+    margin-bottom: 0px;
+}
+p {
+    font-size: 15px;
+}
+
 
 /*navbar styling*/
 
@@ -17,7 +39,7 @@
 }
 
 .a-nav {
-    color:black;
+    color:#1D6677;
     text-decoration:none;
     display: block;
     padding-right: 0.5rem;
@@ -31,9 +53,16 @@
     
 }
 
+/*bar design*/
+
 .white-bar {
-    height:100px;
+    height:80px;
     background-color: white;
+}
+
+.teal-bar {
+    height:2px;
+    background-color: #1D6677;
 }
 
 .a-logo{
@@ -49,22 +78,27 @@
 /* Body Designing */
 ul {
     list-style: none;
-}
-.main {
-
     display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    padding: 5px;
-
+    justify-content: center;
 }
 
-/* Flex Designing  */
+/* Border, spacing and shadow Designing  */
+
+.col-md-3{
+    box-shadow: 0 0 4px 2px lightgray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.row {
+    justify-content: space-around;
+}
 
 /* Bottom Designing */
 .bottom img {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
+    padding: 10px;
 }
 #insightsocial {
     display: flex;
@@ -74,4 +108,6 @@ ul {
     display: flex;
     justify-content: space-around;
 }
-
+i:hover{
+  color: blue;
+}
