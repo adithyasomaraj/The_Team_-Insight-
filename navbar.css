@@ -4,19 +4,42 @@
     padding: 0;
 }
 
+/*custom fonts*/
+
 .base-font {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: black;
 }
+
+/*h1{
+    font-family: 'Barrio', cursive;
+}*/
+
+h3{
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 18px;
+}
+#pp {
+    margin-bottom: 0px;
+}
+p {
+    font-size: 15px;
+}
+
 
 /*navbar styling*/
 
 .logo-tint-blue {
-    background-color:rgb(191, 218, 228);
+    background-color:#87cefa;
+    height: 65px;
 }
 
 .a-nav {
-    color:black;
+    color:#1D6677;
     text-decoration:none;
     display: block;
     padding-right: 0.5rem;
@@ -26,11 +49,20 @@
 .a-nav:hover {
     color:547A87;
     text-decoration:none;
+    border-bottom: 2px solid white;
+    
 }
 
+/*bar design*/
+
 .white-bar {
-    height:100px;
+    height:80px;
     background-color: white;
+}
+
+.teal-bar {
+    height:2px;
+    background-color: #1D6677;
 }
 
 .a-logo{
@@ -40,3 +72,42 @@
 .a-logo:hover {
     border:1px solid; color : 547A87; 
  }
+.navbar-collapse {
+    background-color: #87cefa;
+}
+/* Body Designing */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* Border, spacing and shadow Designing  */
+
+.col-md-3{
+    box-shadow: 0 0 4px 2px lightgray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+/* Bottom Designing */
+.bottom img {
+    height: 90px;
+    width: 90px;
+    padding: 10px;
+}
+#insightsocial {
+    display: flex;
+    justify-content: space-around;
+}
+.sublogo {
+    display: flex;
+    justify-content: space-around;
+}
+i:hover{
+  color: blue;
+}
