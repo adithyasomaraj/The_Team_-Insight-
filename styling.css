@@ -25,9 +25,14 @@
   transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
+.rotate{
   transform: rotateY(180deg);
+  transition: transform 0.6s ease-in-out;
 }
+
+/*.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}*/
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -36,17 +41,41 @@
   border-radius: 10px;
 }
 
-.flip-card-back {
-  transform: rotateY(180deg);
+.flip-card-front{
+  transition: 0.6s ease;
+}
+
+.flip-card-back{
+  display: none;
+}
+
+.flip-card-back.visible {
+  /*transform: rotateY(180deg);*/
+  opacity:1;
+  animation: fadeIn 1s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.7s linear;
+  transition: 0.7s linear 0.6s;
 }
+
+@keyframes fadeIn{
+  0%{opacity:0;}
+  57%{opacity:0;}
+  60%{opacity: 0.2;}
+  61%{opacity:0.4;}
+  75%{opacity:1;}
+  100%{opacity:1;}
+}
+
 .flip-card:hover .flip-card-back {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .flip-card-back a{
-  padding: 10px;
+  /*padding: 10px;*/
+}
+
+.flip-card-back li{
+  cursor:pointer;
 }
