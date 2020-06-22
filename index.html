@@ -14,15 +14,16 @@
 
     <link rel="icon" href=".\Images\insightlogo.png" />
     <link rel="stylesheet" href=".\navbar.css" />
-
+    <link rel="stylesheet" href=".\styling.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
     <style>
         img {
-            width: 150px;
-            height: 150px;
+            width: 250px;
+            height: 280px;
+            border-radius: 10px;
         }
     </style>
 
@@ -98,51 +99,56 @@
         <div class="row my-3 justify-content-space-between">
 
             <div class="col-md-3 mx-3 my-3 p-3">
-
-                <!-- div class="box" for every member which can be 
-                easily targetted by .box for overall styling -->
-
-                <div class="box" id="amogh">
+              <!-- div class="box" for every member which can be
+              easily targetted by .box for overall styling -->
+              <div class="box" id="amogh">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
                     <!-- img for image -->
-                    <img src=".\Images\Chief Editors\amogh.jpg" alt="Amogh" class="rounded-circle">
-                    <!-- hyperlinks for fb and gmail as of now 
-                 some other may be added accordingly if required -->
-                    <ul>
-                        <li>
-                            <a href="" target="_blank"></a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank"></a>
-                        </li>
+                    <div class="flip-card-front"><img src=".\Images\Chief Editors\amogh.jpg" alt="Amogh" ></div>
+                    <!-- hyperlinks for fb and gmail as of now
+                    some other may be added accordingly if required -->
+                    <ul class="flip-card-back">
+                      <a href="" target="_blank" class="fa fa-google fa-2x mb-3" style="color: #1D6677;"></a>
+                      <a href="" target="_blank" class="fa fa-facebook fa-2x mb-3" style="color: #1D6677;"></a>
                     </ul>
-                    <!-- h3 for name -->
-                    <h3>Amogh Gawaskar</h3>
-                    <hr>
-                    <!-- h4 for post -->
-                    <h4>Chief Editor</h4>
-                    <!-- h4 for bio -->
-                    <p>Stoic with a passion for puns and poetry. Long walks over small talks.</p>
+                  </div>
                 </div>
-
+                <div id="txt">
+                  <!-- h3 for name -->
+                  <h3>Amogh Gawaskar</h3>
+                  <hr>
+                  <!-- h4 for post -->
+                  <h4>Chief Editor</h4>
+                  <!-- h4 for bio -->
+                  <p>Stoic with a passion for puns and poetry. Long walks over small talks.</p>
+                </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
 
-                <div class="box" id="suman">
-                    <img src=".\Images\Chief Editors\suman.jpg" alt="Suman" class="rounded-circle">
-                    <ul>
-                        <li>
-                            <a href="" target="_blank"></a>
+              <div class="box" id="suman">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front"><img src=".\Images\Chief Editors\suman.jpg" alt="Suman"></div>
+                    <ul class="flip-card-back">
+                      <li>
+                        <a href="" target="_blank"></a>
                         </li>
-                        <li>
-                            <a href="" target="_blank"></a>
-                        </li>
+                      <li>
+                        <a href="" target="_blank"></a>
+                      </li>
                     </ul>
-                    <h3>Suman Mondal</h3>
-                    <hr>
-                    <h4>Chief Editor</h4>
-                    <p>In an increasingly polarised world, you can find me right in the center.</p>
+                  </div>
                 </div>
+                <div id="txt">
+                  <h3>Suman Mondal</h3>
+                  <hr>
+                  <h4>Chief Editor</h4>
+                  <p>In an increasingly polarised world, you can find me right in the center.</p>
+                </div>
+              </div>
 
             </div>
 
@@ -171,48 +177,61 @@
         <div class="row my-3 justify-content-space-between">
 
             <div class="col-md-3 mx-3 my-3 p-3">
-                <div class="box" id="abir">
-                    <img src=".\Images\Editorial Board\abir.jpg" alt="Abir" class="rounded-circle">
-                    <ul>
-                        <li>
-                            <a href="" target="_blank"></a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank"></a>
-                        </li>
+              <div class="box" id="abir">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front"><img src=".\Images\Editorial Board\abir.jpg" alt="Abir"></div>
+                    <ul class="flip-card-back">
+                      <li>
+                        <a href="" target="_blank"></a>
+                      </li>
+                      <li>
+                        <a href="" target="_blank"></a>
+                      </li>
                     </ul>
-                    <h3>Abir Mehta</h3>
-                    <hr>
-                    <h4>Editorial Board Member</h4>
-                    <p>Hardcore fantasy fiction fan. Perpetually looking for people who wanna discuss ASOIAF or LOTR.
-                    </p>
+                  </div>
                 </div>
+                <div id="txt">
+                  <h3>Abir Mehta</h3>
+                  <hr>
+                  <h4>Editorial Board Member</h4>
+                  <p>Hardcore fantasy fiction fan. Perpetually looking for people who wanna discuss ASOIAF or LOTR.</p>
+                </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
-                <div class="box" id="akanksha">
-                    <img src=".\Images\Editorial Board\akanksha.jpg" alt="Akanksha" class="rounded-circle">
-                    <ul>
+              <div class="box" id="akanksha">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front"><img src=".\Images\Editorial Board\akanksha.jpg" alt="Akanksha"></div>
+                    <ul class="flip-card-back">
                         <li>
-                            <a href="" target="_blank"></a>
+                          <a href="" target="_blank"></a>
                         </li>
                         <li>
-                            <a href="" target="_blank"></a>
+                          <a href="" target="_blank"></a>
                         </li>
                     </ul>
-                    <h3>Akanksha Sachan</h3>
-                    <hr>
-                    <h4>Editorial Board Member</h4>
-                    <p>I am a liar. Now that we have entered the Epimenides paradox, I'll like to say that I have
-                        developed a recent interest in non-fiction, I love sketching, and I laugh a lot when I get
-                        awkward. </p>
+                  </div>
                 </div>
+                <div id="txt">
+                  <h3>Akanksha Sachan</h3>
+                  <hr>
+                  <h4>Editorial Board Member</h4>
+                  <p>I am a liar. Now that we have entered the Epimenides paradox, I'll like to say that I have
+                      developed a recent interest in non-fiction, I love sketching, and I laugh a lot when I get
+                      awkward. </p>
+                </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="aman">
-                    <img src=".\Images\Editorial Board\aman.jpg" alt="Aman" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\aman.jpg" alt="Aman"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -220,6 +239,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Aman Rai</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
@@ -227,7 +249,7 @@
                         watching memes at this very moment. </p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -235,8 +257,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="kawathekar">
-                    <img src=".\Images\Editorial Board\kawathekar.jpg" alt="Amogh" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\kawathekar.jpg" alt="Amogh"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -244,6 +268,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                    <div id="txt">
                     <h3>Amogh Kawathekar</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
@@ -251,11 +278,13 @@
                     </p>
                 </div>
             </div>
-
+          </div>
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="anushka">
-                    <img src=".\Images\unknown.png" alt="Anushka" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Anushka"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -263,18 +292,24 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Anushka Mandal</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
                     <p>Overthinks most things except which show to watch next. Loves to Panic but has never been to the
                         Disco.</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="apoorva">
-                    <img src=".\Images\Editorial Board\apoorva.jpg" alt="Apoorva" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\apoorva.jpg" alt="Apoorva"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -282,6 +317,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Apoorva Agarwal</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
@@ -289,15 +327,17 @@
                         without elevation gains, old homes and commas.</p>
                 </div>
             </div>
-
+           </div>
         </div>
 
         <div class="row my-3 justify-content-space-between">
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="arvind">
-                    <img src=".\Images\Editorial Board\arvind.jpg" alt="Arvind" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\arvind.jpg" alt="Arvind"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -305,17 +345,23 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Arvind Manimurugan</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
                     <p>I am happily living my biography, and I want it to be a bestseller! </p>
                 </div>
             </div>
+          </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="aryan">
-                    <img src=".\Images\Editorial Board\aryan.jpg" alt="Aryan" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\aryan.jpg" alt="Aryan"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -323,6 +369,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Aryan Mishra</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
@@ -330,11 +379,13 @@
                         Lover. Excelsior!</p>
                 </div>
             </div>
-
+          </div>
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="chaitanya">
-                    <img src=".\Images\unknown.png" alt="Chaintanya" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Chaintanya"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -342,6 +393,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Chaitanya Johari</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
@@ -349,7 +403,7 @@
                         Lover. Excelsior!</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -357,8 +411,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="devansh">
-                    <img src=".\Images\unknown.png" alt="Devansh" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Devansh"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -366,17 +422,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Devansh Bangad</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
                     <p>An avid gamer, anime otaku and a master procrastinator.</p>
                 </div>
             </div>
-
+          </div>
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="namit">
-                    <img src=".\Images\unknown.png" alt="Namit" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Namit"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -384,17 +445,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Namit Agrawal</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
                     <p>(To be updated)</p>
                 </div>
             </div>
-
+          </div>
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="ojasvi">
-                    <img src=".\Images\Editorial Board\ojasvi.jpg" alt="Ojasvi" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\ojasvi.jpg" alt="Ojasvi"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -402,6 +468,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Ojaswi Kumar</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
@@ -409,7 +478,7 @@
                         please stay away :)</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -417,8 +486,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="pranav">
-                    <img src=".\Images\Editorial Board\pranav.jpg" alt="Pranav" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\pranav.jpg" alt="Pranav"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -426,6 +497,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Pranav Kasat</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
@@ -433,11 +507,14 @@
                     </p>
                 </div>
             </div>
+          </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="rajat">
-                    <img src=".\Images\unknown.png" alt="Rajat" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Rajat"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -445,17 +522,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Rajat Jain</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
                     <p>Version: 1.92(beta), What's New: humour_2.2, senti_8.0 and ENTHU_100</p>
                 </div>
             </div>
-
+          </div>
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="rishi">
-                    <img src=".\Images\Editorial Board\rishi.jpg" alt="Rishi" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\rishi.jpg" alt="Rishi"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -463,21 +545,26 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Rishi Rathi</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
                     <p>A 'libtard' who also strongly believes in the climate change 'hoax'. </p>
                 </div>
             </div>
-
+          </div>
         </div>
 
         <div class="row my-3 justify-content-space-between">
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="sahil">
-                    <img src=".\Images\Editorial Board\sahil.JPG" alt="Sahil" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\sahil.JPG" alt="Sahil"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -485,17 +572,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Sahil Dixit</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
                     <p>Western classical, jungles and books catch me eye when making sense of this dismal world.</p>
                 </div>
             </div>
-
+          </div>
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="samyak">
-                    <img src=".\Images\Editorial Board\samyak.jpg" alt="Samyak" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\samyak.jpg" alt="Samyak"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -503,17 +595,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Samyak Shah</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
                     <p>Learning and Growing</p>
                 </div>
             </div>
-
+          </div>
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="shaunak">
-                    <img src=".\Images\Editorial Board\shaunak.jpg" alt="Shaunak" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\shaunak.jpg" alt="Shaunak"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -521,6 +618,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Shaunak Natarajan</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
@@ -528,15 +628,17 @@
                         aspirations. Gifted conversationalist xP</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
         <div class="row my-3 justify-content-space-between">
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="tanisha">
-                    <img src=".\Images\Editorial Board\tanisha.jpg" alt="Tanisha" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Editorial Board\tanisha.jpg" alt="Tanisha"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -544,6 +646,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Tanisha Agrawal</h3>
                     <hr>
                     <h4>Editorial Board Member</h4>
@@ -551,7 +656,7 @@
                         through life doesn't work.</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -579,8 +684,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="vaishnavi">
-                    <img src=".\Images\unknown.png" alt="Vaishnavi" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Vaishnavi"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -588,17 +695,23 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Vaishnavi Alkondawar</h3>
                     <hr>
                     <h4>Design Manager</h4>
                     <p>(To be updated)</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="krishna">
-                    <img src=".\Images\Design\krishna.jpg" alt="Krishna" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Design\krishna.jpg" alt="Krishna"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -606,13 +719,16 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Krishna Nair</h3>
                     <hr>
                     <h4>Design Manager</h4>
                     <p>The answer to the question of Life is fancy and hopscotch</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -620,8 +736,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="yash">
-                    <img src=".\Images\unknown.png" alt="Yash" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Yash"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -629,17 +747,23 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Yash Somkuwar</h3>
                     <hr>
                     <h4>Design Convener</h4>
                     <p>bohot random zindagi </p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="saloni">
-                    <img src=".\Images\Design\saloni.jpg" alt="Saloni" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Design\saloni.jpg" alt="Saloni"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -647,13 +771,16 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Saloni Shetye</h3>
                     <hr>
                     <h4>Design Convener</h4>
                     <p>Cynophilist and art enthusiast. I stay up way too much admiring the night sky.</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -661,8 +788,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="hardik">
-                    <img src=".\Images\Design\hardik.jpg" alt="Hardik" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Design\hardik.jpg" alt="Hardik"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -670,18 +799,24 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Hardik Shrivastava</h3>
                     <hr>
                     <h4>Design Convener</h4>
                     <p>Caffeine dependent life form. Logic is the key and music is it's source. Thinker and Dreamer.
                         Always up for hanging around under the night sky.</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="utkarsh">
-                    <img src=".\Images\unknown.png" alt="Utkarsh" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Utkarsh"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -689,13 +824,16 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Utkarsh Gupta</h3>
                     <hr>
                     <h4>Design Convener</h4>
                     <p>Finding my own way to attain enlightenment.</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -723,8 +861,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="akash">
-                    <img src=".\Images\Data\akash.jpg" alt="Akash" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Data\akash.jpg" alt="Akash"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -732,17 +872,23 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Akash Sathe</h3>
                     <hr>
                     <h4>Data Manager</h4>
                     <p>football lover...music addict..</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="divya">
-                    <img src=".\Images\Data\divya.jpg" alt="Divya" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Data\divya.jpg" alt="Divya"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -750,6 +896,9 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Divya Pattisapu</h3>
                     <hr>
                     <h4>Data Manager</h4>
@@ -757,7 +906,7 @@
                         to be my clever jokes. So please be kind to me. Douzo yoroshiku!</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -765,8 +914,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="3">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -774,17 +925,23 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3>
                     <hr>
                     <h4>Data Analyst</h4>
                     <p>(To be updated)</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="4">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -792,16 +949,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3><hr>
                     <h4>Data Analyst</h4>
                     <p>(To be updated)</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="5">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -809,12 +972,15 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3><hr>
                     <h4>Data Analyst</h4>
                     <p>(To be updated)</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -823,8 +989,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="6">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -832,16 +1000,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3><hr>
                     <h4>Data Analyst</h4>
                     <p>(To be updated)</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="7">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -849,12 +1023,15 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3><hr>
                     <h4>Data Analyst</h4>
                     <p>(To be updated)</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
     </div>
@@ -880,8 +1057,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="bhavesh">
-                    <img src=".\Images\unknown.png" alt="Bhavesh" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Bhavesh"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -889,16 +1068,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Bhavesh Patil</h3><hr>
                     <h4>Web Manager</h4>
                     <p>(To be updated)</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="avyakta">
-                    <img src=".\Images\unknown.png" alt="Avyakta" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Avyakta"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -906,12 +1091,15 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Avyakta Wrat</h3><hr>
                     <h4>Web Manager</h4>
                     <p>To be updated</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -919,8 +1107,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="adithya">
-                    <img src=".\Images\unknown.png" alt="Adithya" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Adithya"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -928,16 +1118,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Adithya Somaraj</h3><hr>
                     <h4>Web Convener</h4>
                     <p>To be updated</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="gurnoor">
-                    <img src=".\Images\unknown.png" alt="Gurnoor" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Gurnoor"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -945,12 +1141,15 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Gurnoor Singh Khurana</h3><hr>
                     <h4>Web Convener</h4>
                     <p>To be updated</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -958,8 +1157,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="mayur">
-                    <img src=".\Images\Web\mayur.jpg" alt="Mayur" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\Web\mayur.jpg" alt="Mayur"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -967,17 +1168,23 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Mayur Ware</h3><hr>
                     <h4>Web Convener</h4>
                     <p>Passionate cricket fan, music addict, photographer, political affairs & international relations
                         enthusiast and much more...</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="shabnam">
-                    <img src=".\Images\unknown.png" alt="Shabnam" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Shabnam"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -985,12 +1192,15 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Shabnam Sahay</h3><hr>
                     <h4>Web Convener</h4>
                     <p>To be updated</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
     </div>
@@ -1016,8 +1226,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="prajwal">
-                    <img src=".\Images\unknown.png" alt="Prajwal" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt="Prajwal"></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -1025,12 +1237,15 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>Prajwal Tirkey</h3><hr>
                     <h4> BBC OC</h4>
                     <p>(To be updated)</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -1038,8 +1253,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="b">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -1047,16 +1264,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3><hr>
                     <h4>BBC Convener</h4>
                     <p>(To be updated)</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="c">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -1064,16 +1287,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3><hr>
                     <h4>BBC Convener</h4>
                     <p>(To be updated)</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="d">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -1081,12 +1310,15 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3><hr>
                     <h4>BBC Convener</h4>
                     <p>(To be updated)</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -1094,8 +1326,10 @@
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="e">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -1103,16 +1337,22 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3><hr>
                     <h4>BBC Convener</h4>
                     <p>(To be updated)</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-3 mx-3 my-3 p-3">
                 <div class="box" id="f">
-                    <img src=".\Images\unknown.png" alt="" class="rounded-circle">
-                    <ul>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front"><img src=".\Images\unknown.png" alt=""></div>
+                    <ul class="flip-card-back">
                         <li>
                             <a href="" target="_blank"></a>
                         </li>
@@ -1120,12 +1360,15 @@
                             <a href="" target="_blank"></a>
                         </li>
                     </ul>
+                  </div>
+                </div>
+                <div id="txt">
                     <h3>To be updated</h3><hr>
                     <h4>BBC Convener</h4>
                     <p>(To be updated)</p>
                 </div>
             </div>
-
+          </div>
         </div>
 
     </div>
