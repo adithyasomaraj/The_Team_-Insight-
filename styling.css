@@ -54,6 +54,7 @@ ul.visible li{
 }
 
 .flip-card-back.visible{
+  cursor:pointer;
   animation: rotation 0.6s;
   display: flex;
   flex-direction: column;
