@@ -84,7 +84,7 @@ ul {
 
 /* Border, spacing and shadow Designing  */
 
-.col-md-3{
+.col-lg-3{
     box-shadow: 0 0 4px 2px lightgray;
     border-radius: 10px;
     padding: 5px;
@@ -100,6 +100,11 @@ ul {
     width: 90px;
     padding: 10px;
 }
+
+#bottom{
+    width:35vw;
+}
+
 #insightsocial {
     display: flex;
     justify-content: space-around;
@@ -111,3 +116,11 @@ ul {
 i:hover{
   color: blue;
 }
+
+@media screen and (max-width:992px){
+    #bottom{
+        width:80vw;
+    }
+}
+
+
