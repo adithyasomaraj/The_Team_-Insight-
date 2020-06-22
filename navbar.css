@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*custom fonts*/
 
 .base-font {
@@ -120,6 +124,10 @@ i:hover{
 @media screen and (max-width:992px){
     #bottom{
         width:80vw;
+    }
+
+    #bottom div.col-2{
+        padding : 0 !important;
     }
 }
 
