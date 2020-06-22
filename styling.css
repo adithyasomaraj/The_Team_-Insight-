@@ -78,7 +78,7 @@ ul.visible li{
   background-color: rgba(0, 0, 0, 0.6);
 }
 .flip-card-back a{
-  padding: 0px;
+  /*padding: 10px;*/
 }
 
 .flip-card-back li{
